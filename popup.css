@@ -1,4 +1,99 @@
-body{
-    height: 100px;
-    width: 100px;
+/* body {
+  background-color: #555879;
+}
+.container {
+  height: 285px;
+  width: 321px;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timerTypeContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  color: white;
+  font-size: medium;
+  font-family: "Jost";
+}
+
+.timerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#timer {
+  font-size: 40px;
+  font-family: "Jost";
+  font-weight: 100;
+  color: white;
+}
+#startButton {
+  color: white;
+  font-size: large;
+  font-family: "Jost";
+  font-weight: 100;
+  background-color: #98a1bc;
+  border-radius: 15px;
+  border-style: none;
+  width: 127px;
+  height: 40px;
+  box-shadow: 5px 5px 5px #464646;
+} */
+
+ body {
+  background-color: #555879;
+
+}
+.container {
+  height: 87px;
+  width: 432px;
+    /* display: flex;
+    flex-direction: column;
+  justify-content:flex-start;
+   */
+ 
+}
+
+.timerTypeContainer {
+    width: 270px;
+    height: 33px;
+  display: flex;
+  gap: 15px;
+  color: white;
+  font-size: medium;
+  font-family: "Jost";
+    padding-left: 20px;
+ margin: 0px;
+ flex-wrap: nowrap;
+ align-items: center;
+}
+
+.timerBox {
+  display: flex;
+  justify-content: space-between;
+ padding-left: 20px;
+ align-items: center;
+
+}
+#timer {
+  font-size: 40px;
+  font-family: "Jost";
+  font-weight: 100;
+  color: white;
+}
+#startButton {
+  color: white;
+  font-size: large;
+  font-family: "Jost";
+  font-weight: 100;
+  background-color: #98a1bc;
+  border-radius: 15px;
+  border-style: none;
+  width: 107px;
+  height: 36px;
+  box-shadow: 5px 5px 5px #464646;
 }
